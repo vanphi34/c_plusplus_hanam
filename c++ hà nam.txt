@@ -1,0 +1,8 @@
+1. giới thiệu làm quen với C++
+2. rẽ nhánh + for
+3. while + do while bài tập
+4. mảng và thao tác trên mảng.
+5. ôn tập
+6. hàm
+7. ôn tập
+8. ktra
