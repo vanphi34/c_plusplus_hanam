@@ -4,5 +4,5 @@
 4. mảng và thao tác trên mảng.
 5. ôn tập
 6. hàm
-7. ôn tập
+7. ôn tập 
 8. ktra
