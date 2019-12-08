@@ -1,10 +1,20 @@
-bài 1: bài 1.1 trong tài liệu
-bài 2: tạo ra tam giác như file "anh1"
-bài 3: tạo ra cây thông noel như file "anh2"
-bài 4: cho chiều dài và chiều rộng của 1 hình chữ nhật là a và b
+2 bài cuối ko bắt buộc nhé!!
+
+bài 1:(bắt buộc, có thể ko làm nếu làm bài 6) 
+        bài 1.1 trong tài liệu
+        
+bài 2:(bắt buộc, có thể ko làm nếu làm bài 6) 
+        tạo ra tam giác như file "anh1"
+        
+bài 3:(bắt buộc, có thể ko làm nếu làm bài 5 hoặc bài 6) 
+        tạo ra cây thông noel như file "anh2"
+        
+bài 4:(bắt buộc, có thể ko làm nếu làm bài 5 hoặc bài 6) 
+        cho chiều dài và chiều rộng của 1 hình chữ nhật là a và b
         nhập dữ liệu cho a và b từ bàn phím
         tính chu vi và diện tích của hình chữ nhật
         in chu vi và diện tích hcn lên màn hình
+        
 bài 5: (nếu làm bài 5 thì ko cần làm bài 3 và bài 4)
       Cho ba số nguyên A, B, C. Viết chương trình để kiểm tra xem các số đó có thể là độ dài ba cạnh
       của một tam giác hay không. Nếu bộ ba số đó có thể là ba cạnh của một tam giác,
