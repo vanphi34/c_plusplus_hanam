@@ -1,0 +1,70 @@
+bài 1: Viết chương trình nhập vào số tiền phải trả của khách hàng. In ra số tiền khuyến mại với quy định: 
+        nếu số tiền phải trả thuộc [200, 300) thì khuyến mại 20%. Nếu số tiền phải trả từ 300 trở lên thì khuyến mại 30%. 
+        Còn lại thì không khuyến mại. 
+        
+bài 2: Viết chương trình nhập vào một số nguyên n; 
+        tính tổng các số nguyên tố thuộc đoạn [1..n]. Cho biết có bao nhiêu số nguyên tố thuộc đoạn đó.
+        
+bài 3: Viết chương trình tính và hiển thị ra màn hình tiền điện phải trả của một hộ gia đình trong một tháng. 
+        Với số kwh điện tiêu thụ trong tháng là n được nhập vào từ bàn phím và giá 1kwh được tính như sau: 
+        100 kwh đầu tiên: 750đ/1kwh; từ kwh thứ 101 đến kwh thứ 200: 1250đ/1kwh; 
+        từ kwh thứ 201 đến kwh thứ 300: 1750đ/1kwh; từ kwh thứ 301 trở đi: 3000đ/1kwh.
+        
+bài 4: nhập vào 1 số n, kiểm tra xem số n có thuộc dãy fibonacci hay không?
+
+bài 5: nhập vào 1 số n, in ra n số fibonacci đầu tiên.
+
+bài 6: Cho 3 số nguyên d, m và y
+
+        Viêt hàm kiểm tra ngày d/m/y có phải là 1 ngày hợp lệ hay không?
+
+        (chú ý luật năm nhuận nữa nhé!!!)
+
+          Ví dụ:
+
+          Với d =31, m=12 và y = 1988 thì cout << "true";
+          Với d =29, m=2 và y = 2001 thì cout << "false";
+
+bài 7:(ko bắt buộc)
+         Tèo có rất nhiều sách. Tí nhìn thấy đống sách của Tèo rất lộn xộn nên muốn sắp xếp lại cho ngăn nắp. 
+         Thấy Tí có nhã ý giúp đỡ, Tèo rất vui, nhưng đồng thời Tèo lại nghĩ ra 1 trò chơi để đố Tí. 
+         Tèo viết lên mỗi bìa sách 1  số nguyên nào đó. Khi Tí chọn 1 quyển sách bất kì, con số x trên bìa sách đó có ý nghĩa rằng Tí chỉ được phép xếp chồng lên quyển đó tối đa x quyển sách khác mà thôi. 
+         Tèo đố Tí làm cách nào để xếp được 1 chồng sách cao nhất có thể.
+         
+         - Cho mảng arr , arr[i] là số mà Tèo sẽ viết lên quyển sách thứ i . Mỗi số không vượt quá 1000. hãy giúp Tí tìm ra số lượng nhiều nhất quyển sách mà Tí có thể xếp thành 1 chồng.
+
+          Ví Dụ: 
+
+          arr = [1,0,2,0,0] thì sortbooks(arr) = 3   
+          Số viết lên các quyển sách trong chồng sách Tí có thể xếp là 2 ,1 , 0
+
+          arr = [1,3,3,0,0] thì sortbooks(arr) = 4   
+           Số viết lên các quyển sách trong chồng sách Tí có thể xếp là 3,3,1,0
+           
+           
+           
+  bài 8: (bài này a để dây cho vui, ai thích làm thì làm, ko bắt buộc nhé :v , nếu làm dc miễn các bài trên)
+           link đề: https://codeforces.com/problemset/problem/1269/B 
+          
+          You are given a positive integer m and two integer sequence: a=[a1,a2,…,an] and b=[b1,b2,…,bn]. Both of these sequence have a length n.
+
+Permutation is a sequence of n different positive integers from 1 to n. For example, these sequences are permutations: [1], [1,2], [2,1], [6,7,3,4,1,2,5]. These are not: [0], [1,1], [2,3].
+
+You need to find the non-negative integer x, and increase all elements of ai by x, modulo m (i.e. you want to change ai to (ai+x)modm), so it would be possible to rearrange elements of a to make it equal b, among them you need to find the smallest possible x.
+
+In other words, you need to find the smallest non-negative integer x, for which it is possible to find some permutation p=[p1,p2,…,pn], such that for all 1≤i≤n, (ai+x)modm=bpi, where ymodm — remainder of division of y by m.
+
+For example, if m=3, a=[0,0,2,1],b=[2,0,1,1], you can choose x=1, and a will be equal to [1,1,0,2] and you can rearrange it to make it equal [2,0,1,1], which is equal to b.
+
+Input
+The first line contains two integers n,m (1≤n≤2000,1≤m≤109): number of elemens in arrays and m.
+
+The second line contains n integers a1,a2,…,an (0≤ai<m).
+
+The third line contains n integers b1,b2,…,bn (0≤bi<m).
+
+It is guaranteed that there exists some non-negative integer x, such that it would be possible to find some permutation p1,p2,…,pn such that (ai+x)modm=bpi.
+
+Output
+Print one integer, the smallest non-negative integer x, such that it would be possible to find some permutation p1,p2,…,pn such that (ai+x)modm=bpi for all 1≤i≤n.
+
