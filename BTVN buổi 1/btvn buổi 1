@@ -1,0 +1,37 @@
+2 bài cuối ko bắt buộc nhé!!
+
+bài 1:(bắt buộc, có thể ko làm nếu làm bài 6) 
+        bài 1.1 trong tài liệu
+        
+bài 2:(bắt buộc, có thể ko làm nếu làm bài 6) 
+        tạo ra tam giác như file "anh1"
+        
+bài 3:(bắt buộc, có thể ko làm nếu làm bài 5 hoặc bài 6) 
+        tạo ra cây thông noel như file "anh2"
+        
+bài 4:(bắt buộc, có thể ko làm nếu làm bài 5 hoặc bài 6) 
+        cho chiều dài và chiều rộng của 1 hình chữ nhật là a và b
+        nhập dữ liệu cho a và b từ bàn phím
+        tính chu vi và diện tích của hình chữ nhật
+        in chu vi và diện tích hcn lên màn hình
+        
+bài 5: (nếu làm bài 5 thì ko cần làm bài 3 và bài 4)
+      Cho ba số nguyên A, B, C. Viết chương trình để kiểm tra xem các số đó có thể là độ dài ba cạnh
+      của một tam giác hay không. Nếu bộ ba số đó có thể là ba cạnh của một tam giác,
+      trả về "They could be 3 sides of a triangle"; ngược lại, trả về "They could not be 3 sides of a triangle".
+      (gợi ý: sử dụng câu điều kiện if-else sẽ dc học ở buổi sau)
+
+bài 6: (nếu làm bài 6 thì ko cần làm các bài trên và buổi sau sẽ có thưởng)
+      Little Vasya đã nhận được một bộ dụng cụ xây dựng tháp . 
+      Bộ này bao gồm một số thanh gỗ, chiều dài của tất cả chúng được biết đến. 
+      Một tháp sẽ được tạo thành bằng cách đặt các thanh chồng lên nhau với điều kiện là chiều dài của chúng giống nhau. 
+      Chiều cao của một tháp sẽ là số lượng các thanh gỗ được đặt chồng lên nhau.
+
+      Cho mảng arr là mảng chứa các thanh gỗ khác nhau. Hãy giúp Vasya tính chiều cao của tháp lớn nhất và tổng số tháp tối thiểu được tạo thành từ những mảnh gỗ đã cho.
+        
+        Ví Dụ: 
+            Với arr = [6, 5, 6,7]  thì Towers(arr) = [2,3].
+            Tháp thứ 1: gồm 2 thanh gỗ chiều dài là 6
+            Tháp thứ 2: chỉ chứa 1 thanh gỗ chiều dài là 5
+            Tháp thứ 3: là tháp chứa duy nhất thanh gỗ chiều dài là 7.
+             Nên chiều cao tháp lớn nhất là 2 (tháp thứ 1) và có tổng cộng là 3 tháp được tạo thành.
