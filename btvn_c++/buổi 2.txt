@@ -1,0 +1,18 @@
+chữa bài tập (nếu cần)
+
+ôn lại cấu trúc chương trình c++, ôn lại cin,cout, kiểu dữ liệu
+
+đặt vấn đề và học cấu trúc rẽ nhánh if-else, switch-case
+làm bài tập đơn giản (tự nghĩ nhé hihi)
+
+cho làm 1 bài tập có cấu trúc lặp (ko cho dùng cấu trúc lặp)
+sau đó đặt vấn đề về các lệnh có cấu trúc giống nhau gây mất tg và rối code
+nên cần cấu trúc lặp
+giới thiệu sơ về 3 cấu trúc sau đó tập trung vào học for (vì 2 cái kia để buổi sau)
+làm bài tập đơn giản (về for)
+
+làm bài tập tổng hợp if-else và for 
+
+tổng kết buổi học
+ hỏi bọn nó  nay học dc cái gì quan trọng
+xạo chó 1 tí và nếu còn thời gian cho làm bài tập

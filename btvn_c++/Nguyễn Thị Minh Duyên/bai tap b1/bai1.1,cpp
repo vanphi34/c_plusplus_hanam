@@ -1,0 +1,21 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+	int a,b,s,h,p,t,d;
+	cout<<"nhap a:";cin>>a;
+	cout<< "nhap b:";cin>>b;
+	s=a+b;
+	h=a-b;
+	p=a*b;
+	t=a/b;
+	d=a%b;
+	cout<<"tong la"<<s<<endl;
+	cout<<"hieu la"<<h<<endl;
+	cout<<"tich la"<<p<<endl;
+	cout<<"thuong la"<<t<<endl;
+	cout <<" dong du la"<<d<<endl;
+	return 0;
+}
